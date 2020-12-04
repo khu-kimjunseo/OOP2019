@@ -1,0 +1,17 @@
+void 자료형은 출력이 없음을 의미
+ex) void prompt(){
+	cout << "Please enter an integer value: " ;
+
+제출시
+main.cpp 안에 모든 문제를 넣기
+
+/* 문제 1
+int main(){
+...
+}
+*/
+
+/* 문제 2
+int main(){
+}
+*/

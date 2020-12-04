@@ -1,0 +1,7 @@
+changed_str = [](string, char tmp)->string{
+	for ( int = 0; i < str.length()/2 ; i++){
+		tmp = str[i];
+		str[i] = str[(str.length()-1)-i];
+		str[(str.length()-1) -i]=tmp;
+	}
+	return str; }(input, tmp);

@@ -1,0 +1,7 @@
+//파일스트림: 1) open();  2) close();
+//ofstream fout; : fout.open(파일이름, ios::app: 이어쓰기);
+//         fout << 문자열;, fout.put(문자);
+//ifstream fin: fin >> 문자열;, fin.get(문제);
+//         getline(fin, 문자열);
+// (!fin == True) 가 되는 경우: 1) 파일을 제대로 열지 못했을 때
+//                              2) 파일의 끝까지 읽었을 때 (EOF)

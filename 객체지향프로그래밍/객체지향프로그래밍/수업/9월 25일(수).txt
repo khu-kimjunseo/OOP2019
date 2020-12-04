@@ -1,0 +1,12 @@
+객체에서의 데이터를 member data라고 함.
+객체에서의 함수는 member function 또는 method
+
+File 객체의 데이터와 함수 Lecture 7 (1/2) p5.
+String 객체의 데이터와 함수 Lecture 7 (1/2) p6.
+
+string s1; 에서 string는 '객체' 또는 '클래스'라 하고 s1은 '객체' 또는 '인스턴스'라 함.
+string이라는 객체를 사용하기 위해서는 <string>객체를 include 해줘야 함(버전에 따라 다른 것 같기는 하지만, 필수로 해주기)
+
+
+file로 부터 input 할때는 ifstream, output할 때는 ofstream. fstream은 많이 사용하지 않지만 input과 output 둘 중 하나를 선택해서 사용가능
+file은 필수적으로 사용 전에 open()과 사용 후 close()를 해줘야 함.
